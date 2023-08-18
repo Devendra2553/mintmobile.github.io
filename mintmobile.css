@@ -180,7 +180,7 @@ label {
 .mobile {
     width: 300px;
     height: 600px;
-    margin-inline: 50px;
+    margin: 50px;
 }
 
 .mobile-bezzel {
