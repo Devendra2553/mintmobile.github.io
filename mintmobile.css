@@ -7,6 +7,31 @@ body {
     padding: 0;
 }
 
+@font-face {
+    font-family: 'Harlow Solid';
+    src: url(HARLOWSI_1.TTF);
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url(GothamMedium.ttf);
+}
+
+@font-face {
+    font-family: 'geograph';
+    src: url(geographeditwebregular.ttf);
+}
+
+@font-face {
+    font-family: 'Eras';
+    src: url(ITC\ Eras\ Bold.otf);
+}
+
+@font-face {
+    font-family: 'Pristin';
+    src: url(PRISTINA.TTF);
+}
+
 *{
     font-family: 'Gotham';
 }
@@ -78,7 +103,7 @@ h6,
 .wlc {
     margin-top: -30px;
     margin-bottom: -30px;
-    font-family: 'corbel';
+    font-family: 'geograph';
 }
 
 .greet {
@@ -86,7 +111,7 @@ h6,
     font-size: xx-large;
     height: 250px;
     margin-top: 100px;
-    margin-right: 50px;
+    margin-inline: 50px;
 }
 
 .container-login {
@@ -124,7 +149,6 @@ label {
 }
 
 .title {
-    font-family: 'corbel';
     font-size: larger;
     width: 200px;
     text-align: center;
@@ -136,7 +160,6 @@ label {
 
 #btn-to-signup,
 #btn-to-login {
-    font-family: "gotham";
     width: 100%;
     padding: 5px;
     text-decoration: none;
@@ -151,7 +174,6 @@ label {
 
 #btn-login,
 #btn-signup {
-    font-family: "gotham";
     font-size: medium;
     padding: 5px;
     border-radius: 5px;
@@ -181,7 +203,7 @@ label {
 .mobile {
     width: 300px;
     height: 600px;
-    margin-left: 50px;
+    margin-inline: 50px;
 }
 
 .mobile-bezzel {
@@ -255,7 +277,7 @@ label {
     color: aliceblue;
     border-radius: 5px;
     text-align: center;
-    font-family: 'Eras ITC';
+    font-family: 'Eras';
     margin-top: 100px;
     padding: 5px;
 }
@@ -324,7 +346,7 @@ label {
 }
 
 .by{
-    font-family: 'Eras ITC';
+    font-family: 'Eras';
     font-size: xx-large;
 }
 
@@ -332,7 +354,7 @@ label {
     padding-top: 50px;
     margin: 10px;
     font-size: 50px;
-    font-family: 'Pristina';
+    font-family: 'Pristin';
     /* font-family: 'OCR A'; */
 }
 
@@ -360,7 +382,7 @@ label {
 .name,
 .class {
     color: #4b5c78;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'geograph';
     margin-left: 5px;
 }
 
@@ -378,10 +400,11 @@ img {
 }
 
 .table-title {
-    font-size: larger;
+    font-family: 'geograph';
+    font-size: 19px;
     background-color: aliceblue;
     color: #4b5c78;
-    padding-inline: 25px;
+    padding-inline: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 10px;

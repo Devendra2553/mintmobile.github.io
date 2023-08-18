@@ -18,10 +18,10 @@ $(document).ready(function () {
             $("#label-login").text("Check Again");
 
             $("#label_e").css("color", "maroon");
-            $("#email").css("border-color", "maroon");
+            $("#Lemail").css("border-color", "maroon");
 
             $("#label_p").css("color", "maroon");
-            $("#password").css("border-color", "maroon");
+            $("#Lpassword").css("border-color", "maroon");
 
             $("#btn-login").css("background-color", "white").css("color", "maroon").css("border", "1px solid maroon");
             $("#btn-to-signup").css("background-color", "maroon").css("color", "white").css("border", "1px solid maroon");
