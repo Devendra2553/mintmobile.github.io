@@ -38,14 +38,14 @@ body {
 }
 
 #navbar a {
-    color: #4b5c78;
+    color: #263347;
     padding: 14px;
     text-decoration: none;
     transition: 0.1s ease;
 }
 
 #navbar a:hover {
-    color: cadetblue;
+    color:rgb(90, 120, 170);
     cursor: pointer;
 }
 
@@ -99,14 +99,39 @@ h6,
     justify-content: center;
 }
 
+.login {
+    transition: 0.5s;
+}
+
 form {
     display: grid;
     margin-top: 135px;
     transition: 0.5s;
 }
 
-.login {
-    transition: 0.5s;
+input,
+textarea {
+    border: solid #4b5c78 1px;
+    border-radius: 5px;
+    background-color: white;
+    resize: none;
+    outline: none;
+}
+
+label {
+    color: #4b5c78;
+    margin: 5px;
+}
+
+.title {
+    font-family: 'corbel';
+    font-size: larger;
+    width: 200px;
+    text-align: center;
+    background-color: #4b5c78;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 #btn-to-signup,
@@ -153,30 +178,6 @@ form {
     transform: translateY(0px);
 }
 
-input,
-textarea {
-    border: solid #4b5c78 1px;
-    border-radius: 5px;
-    background-color: white;
-    resize: none;
-    outline: none;
-}
-
-label {
-    color: #4b5c78;
-    margin: 5px;
-}
-
-.title {
-    width: 150px;
-    text-align: center;
-    text-shadow: 10px;
-    background-color: #4b5c78;
-    color: #ffffff;
-    padding: 10px;
-    border-radius: 5px;
-}
-
 .mobile {
     width: 300px;
     height: 600px;
@@ -188,7 +189,7 @@ label {
     border-radius: 15px;
     width: 300px;
     height: 600px;
-    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3);
     background-color: black;
 }
 

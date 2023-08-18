@@ -1,18 +1,40 @@
 $(document).ready(function () {
 
-    $("#btn-to-signup").click(function () {
+    $("#btn-to-signup, .recent").click(function () {
         $(".login").css("margin-top", "-515px");
     });
-    $("#btn-to-login").click(function () {
+    $("#btn-to-login, .home, .back").click(function () {
         $(".login").css("margin-top", "0px");
+    });
+
+    $("#signup-form").submit(function () {
+
+        var name = $("#name").val();
+        var email =$("#email").val();
+        var mobile = $("#mobile").val();
+        var pass = $("#password").val();
+        var cnf = $("#cnfpassword").val();
+
+        if (name === "" || email === "" || mobile === "" || pass === "" || cnf === "") {
+            $("#label-signup").css("background-color", "maroon");
+            $("#label-signup").text("Fill all the fields");
+            $("#btn-signup").css("background-color", "maroon");
+            return false;
+        }
+        else {
+            $("#btn-signup").css("background-color", "white").css("color", "#4b5c78").css("border", "1px solid #4b5c78");
+            $("#btn-to-login").css("background-color", "#4b5c78").css("color", "white").css("border", "1px solid #4b5c78");
+            $("#label-signup").css("background-color", "#4b5c78");
+            $("#label-signup").text("Thank You");
+        }
     });
 
     $("#login-form").submit(function () {
 
-        var email = $("#email").val();
-        var password = $("#password").val();
+        var Lemail = $("#Lemail").val();
+        var Lpassword = $("#Lpassword").val();
         
-        if (email == "" || password == "") {
+        if (Lemail === "" || Lpassword === "") {
 
             $("#label-login").css("background-color", "maroon");
             $("#label-login").text("Check Again");
@@ -28,9 +50,18 @@ $(document).ready(function () {
 
             return false;
         }
+        else {
+            $("#label-login").css("background-color", "#4b5c78");
+            $("#label-login").text("Thank You");
+
+            $("#label_e").css("color", "#4b5c78");
+            $("#email").css("border-color", "#4b5c78");
+
+            $("#label_p").css("color", "#4b5c78");
+            $("#password").css("border-color", "#4b5c78");
+
+            $("#btn-login").css("background-color", "#4b5c78").css("color", "white").css("border", "1px solid #4b5c78");
+            $("#btn-to-signup").css("background-color", "white").css("color", "#4b5c78").css("border", "1px solid #4b5c78");
+        }
     });
-    $("#signup-form").submit(function () {
-        $("#btn-signup").css("background-color", "white").css("color", "#4b5c78").css("border", "1px solid #4b5c78");
-        $("#btn-to-login").css("background-color", "#4b5c78").css("color", "white").css("border", "1px solid #4b5c78");
-    })
 });
