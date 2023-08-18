@@ -9,27 +9,32 @@ body {
 
 @font-face {
     font-family: 'Harlow Solid';
-    src: url(HARLOWSI_1.TTF);
+    src: url(/HARLOWSI_1.TTF);
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url(GothamMedium.ttf);
+    src: url(/GothamBook.ttf);
 }
 
 @font-face {
     font-family: 'geograph';
-    src: url(geographeditwebregular.ttf);
+    src: url(/geographwebmedium.ttf);
+}
+
+@font-face {
+    font-family: 'helvetica';
+    src: url(/Helvetica.ttf);
 }
 
 @font-face {
     font-family: 'Eras';
-    src: url(ITC\ Eras\ Bold.otf);
+    src: url(/ITC\ Eras\ Bold.otf);
 }
 
 @font-face {
     font-family: 'Pristin';
-    src: url(PRISTINA.TTF);
+    src: url(/HARLOWSI_1.TTF);
 }
 
 *{
@@ -101,9 +106,8 @@ h6,
 
 h6,
 .wlc {
-    margin-top: -30px;
-    margin-bottom: -30px;
-    font-family: 'geograph';
+    margin-top: -20px;
+    margin-bottom: -20px;
 }
 
 .greet {
@@ -149,12 +153,12 @@ label {
 }
 
 .title {
-    font-size: larger;
     width: 200px;
     text-align: center;
     background-color: #4b5c78;
     color: #ffffff;
-    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 5px;
 }
 
