@@ -1,0 +1,156 @@
+<html>
+
+<head>
+    <title>Mobile Mania</title>
+    <script src="js/jQuery.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/scroll.js"></script>
+    <link rel="stylesheet" href="mintmobile.css">
+</head>
+
+<body>
+
+    <div id="navbar">
+        <p class="logo">mint mobile</p>
+        <div class="alink">
+            <a onclick="login()" class="nav-login">Login & Register</a>
+            <a onclick="product()" class="nav-product">Mobiles</a>
+            <a onclick="about()" class="nav-about">Contact & About Us</a>
+        </div>
+    </div>
+    <div class="login-section">
+        <div class="container-login">
+            <div class="greet">
+                <h4 class="wlc">Welcome to the</h4>
+                <p class="main-logo">mint mobile</p>
+                <h6>An online mobile shopping website.</h6>
+            </div>
+            <div class="mobile">
+                <div class="mobile-bezzel">
+                    <div class="speaker"></div>
+                    <div class="mobile-screen">
+
+                        <div class="login">
+                            <form id="login-form" action="MobileMania.html" method="#">
+                                <p class="title" id="label-login">Log in here</p>
+
+                                <label id="label_e">Email</label>
+                                <input type="text" id="email">
+
+                                <label id="label_p">Password</label>
+                                <input type="password" id="password"><br>
+
+                                <input type="submit" value="Log in" id="btn-login">
+                            </form>
+                            <button id="btn-to-signup">Register Now</button>
+                        </div>
+
+                        <div class="signup">
+                            <form id="signup-form" action="MobileMania.html" method="#">
+
+
+                                <p class="title" id="label-signup">Register here</p>
+
+                                <label id="label-n">Name</label>
+                                <input id="name" type="text" required>
+
+                                <label id="label-e">Email</label>
+                                <input id="email" type="text" required>
+
+                                <label id="Label-m">Mobile Number</label>
+                                <input id="mobile" type="text" required>
+
+                                <label id="label-a">Address</label>
+                                <textarea id="textarea" cols="15" rows="5"></textarea>
+
+                                <label id="label-p">Password</label>
+                                <input id="password" type="password" required>
+
+                                <label id="label-cp">Confirm Password</label>
+                                <input id="cnfpassword" type="password" required><br>
+
+                                <input type="submit" value="Submit" id="btn-signup">
+                            </form>
+                            <button id="btn-to-login">Log in</button>
+                        </div>
+
+                    </div>
+                    <img class="recent" src="images/recent.png" alt="home button" srcset="">
+                    <img class="back" src="images/back.png" alt="home button" srcset="">
+                    <div class="home-outer"></div>
+                    <div class="home-inner"></div>
+                    <!-- <img class="home" src="icon/home.png" alt="home button" srcset=""> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-section">
+        <h1 class="product-greet">New Arrivals</h1>
+        <div class="container-product">
+            <div class="card">
+                <div class="nam"></div>
+                <div class="content"></div>
+                <div class="btn"></div>
+            </div>
+            <div class="card">
+                <div class="nam"></div>
+                <div class="content"></div>
+                <div class="btn"></div>
+            </div>
+            <div class="card">
+                <div class="nam"></div>
+                <div class="content"></div>
+                <div class="btn"></div>
+            </div>
+            <div class="card">
+                <div class="nam"></div>
+                <div class="content"></div>
+                <div class="btn"></div>
+            </div>
+            <div class="card">
+                <div class="nam"></div>
+                <div class="content"></div>
+                <div class="btn"></div>
+            </div>
+            <div class="card">
+                <div class="nam"></div>
+                <div class="content"></div>
+                <div class="btn"></div>
+            </div>
+        </div>
+    </div>
+    <div class="about-section">
+        <div class="container-about">
+            <!-- <p class="by">Website made by</p> -->
+            <div class="maker">
+                <div class="photo">
+                    <img src="images/photo.png" alt="photo" />
+                </div>
+                <div class="info">
+                    <h2 class="name">Chauhan Devendra Sanjaykumar</h3>
+                        <h4 class="class"> Class: TYBCA</h4>
+                </div>
+            </div>
+            <h6 class="table-title">Tools are used to make this website</h6>
+            <table>
+                <tr>
+                    <td>Front-End</td>
+                    <td>HTML + CSS + JAVASCRIPT</td>
+                </tr>
+                <tr>
+                    <td>Back-End</td>
+                    <td>PHP</td>
+                </tr>
+                <tr>
+                    <td>Database</td>
+                    <td>MYSQL</td>
+                </tr>
+            </table>
+            <p class="ty">Thank you!</p>
+        </div>
+        <div class="footer"> &copy mint mobile | 2023 </div>
+    </div>
+
+</body>
+
+</html>
