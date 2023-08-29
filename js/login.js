@@ -54,7 +54,7 @@ $(document).ready(function () {
 
         if (name === "" || email === "" || mobile === "" || add === "" ||pass === "" || cnf === "") {
             $("#label-signup").css("background-color", "maroon");
-            $("#label-signup").text("Fill all the fields");
+            $("#label-signup").text("FILL ALL THE FIELDS");
             $("#btn-signup").css("background-color", "maroon").css("color", "white").css("border", "1px solid maroon");
             return false;
         }
